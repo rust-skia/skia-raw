@@ -1,0 +1,17 @@
+[package]
+name = "skia-raw"
+version = "0.1.0"
+authors = ["LongYinan <lynweklm@gmail.com>"]
+edition = "2018"
+links = "skia"
+
+[features]
+default = []
+vulkan = []
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.48"
+cc = "1"
+git2 = "0.8"
